@@ -10,13 +10,13 @@ app.listen(PORT, () => {
 });
 
 // Customers
-const customerRouter = require('/routes/customer')
+const customerRouter = require('./routes/customer')
 app.use('/customer', customerRouter)
 
 // Orders
-const orderRouter = require('/routes/order')
+const orderRouter = require('./routes/order')
 app.use('/order', orderRouter)
 
 // Payments
-const paymentRouter = require('/routes/payment')
+const paymentRouter = require('./routes/payment')
 app.use('/payment', paymentRouter)
