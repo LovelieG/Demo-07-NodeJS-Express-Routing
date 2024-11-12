@@ -10,7 +10,7 @@ app.listen(PORT, () => {
 });
 
 app.get ('/', (request, response) => {
-    response.status(200).json({message: 'APIHomepage'});
+    response.send('<h1>API Homepage</h1>')
 });
 
 // Customers
