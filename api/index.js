@@ -10,7 +10,7 @@ app.listen(PORT, () => {
 });
 
 app.get ('/', (request, response) => {
-    response.send('<h1>API Homepage</h1>')
+    response.send('<h1>Welcome to the API:</h1> <br> <h2> Lovelie Gaspar</h2>')
 });
 
 // Customers
